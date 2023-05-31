@@ -40,6 +40,7 @@ export default function Home() {
         </div>
         <div>
           <h1>JETzLoveU</h1>
+          <h1>Eiei</h1>
         </div>
 
         <div className={styles.center}>
