@@ -48,55 +48,31 @@ export default function index() {
   </div>
 </nav>
 
-<div>
-
-<div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
-  <div className="carousel-inner">
-    <div className="carousel-item active" data-bs-interval={1000}>
-      <img src="/gtr1.jpg" className="d-block w-100" alt="gtr1" />
-    </div>
-    <div className="carousel-item" data-bs-interval={1000}>
-      <img src="/gtr2.jpg" className="d-block w-100" alt="gtr2" />
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true" />
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true" />
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
-
-
-</div>
 </header>
 <br />
 <br />
 <br /> 
 <main>
-
 <div className="container marketing">
   {/* Three columns of text below the carousel */}
   <div className="row">
     <div className="col-lg-4">
-    <img src="/gtr1.jpg" className="bd-placeholder-img rounded-circle" alt="gtr2"width={140} height={140} />
-      <h2 className="fw-normal">Heading</h2>
-      <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-      <p><a className="btn btn-secondary" href="#">View details »</a></p>
+    <img src="/html5.png" className="bd-placeholder-img rounded-circle" alt="gtr2"width={140} height={140} />
+      <h2 className="fw-normal">HTML5</h2>
+      <p>เอชทีเอ็มแอล5 เป็นมาตรฐานตัวต่อไปของ HTML ที่อยู่ในระหว่างการพัฒนา โดยมีลักษณะเหมือนมาตรฐานตัวก่อนหน้าทั้ง HTML 4.01 และ XHTML 1.1 ที่ใช้ในการจัดโครงสร้างและการแสดงผลของเนื้อหาสำหรับเวิลด์ไวด์เว็บ มาตรฐานใหม่จะมีคุณลักษณะเด่นที่สำคัญได้แก่ การใช้งานวิดีโอ การแสดงตำแหน่งทางภูมิศาสตร์ การเก็บไฟล์ในลักษณะออฟไลน์</p>
+      <p><a className="btn btn-secondary" href="https://www.w3schools.com/html/">View details »</a></p>
     </div>{/* /.col-lg-4 */}
     <div className="col-lg-4">
-    <img src="/gtr2.jpg" className="bd-placeholder-img rounded-circle" alt="gtr2"width={140} height={140} />
-      <h2 className="fw-normal">Heading</h2>
-      <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-      <p><a className="btn btn-secondary" href="#">View details »</a></p>
+    <img src="/pts.png" className="bd-placeholder-img rounded-circle" alt="gtr2"width={140} height={140} />
+      <h2 className="fw-normal">PHOTOSHOP</h2>
+      <p>อะโดบี โฟโตชอป มักเรียกสั้นๆ ว่า โฟโตชอป เป็นโปรแกรมประยุกต์ที่มีความสามารถในการจัดการแก้ไขและตกแต่งรูปภาพ แบบแรสเตอร์ ผลิตโดยบริษัทอะโดบีซิสเต็มส์</p>
+      <p><a className="btn btn-secondary" href="https://www.adobe.com/?sdid=49F59KY6&clickref=1100lwPBVo4o&mv=affiliate&mv2=pz&as_camptype=1414588&as_channel=affiliate&as_source=partnerize&as_campaign=chelen">View details »</a></p>
     </div>{/* /.col-lg-4 */}
     <div className="col-lg-4">
-    <img src="/gtr3.jpg" className="bd-placeholder-img rounded-circle" alt="gtr2"width={140} height={140} />
-      <h2 className="fw-normal">Heading</h2>
-      <p>And lastly this, the third column of representative placeholder content.</p>
-      <p><a className="btn btn-secondary" href="#">View details »</a></p>
+    <img src="/ftr.png" className="bd-placeholder-img rounded-circle" alt="gtr2"width={140} height={140} />
+      <h2 className="fw-normal">FLUTTER</h2>
+      <p>เป็นชุดพัฒนาซอฟต์แวร์ UI แบบโอเพ่นซอร์สที่สร้างโดย Google ใช้เพื่อพัฒนาแอปพลิเคชันข้ามแพลตฟอร์มสำหรับ Android, iOS, Linux, macOS, Windows</p>
+      <p><a className="btn btn-secondary" href="https://flutter.dev/">View details »</a></p>
     </div>{/* /.col-lg-4 */}
   </div>{/* /.row */}
 </div>

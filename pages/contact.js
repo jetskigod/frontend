@@ -77,30 +77,6 @@ export default function index() {
 <br /> 
 <main>
 
-<div className="container marketing">
-  {/* Three columns of text below the carousel */}
-  <div className="row">
-    <div className="col-lg-4">
-    <img src="/gtr1.jpg" className="bd-placeholder-img rounded-circle" alt="gtr2"width={140} height={140} />
-      <h2 className="fw-normal">Heading</h2>
-      <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-      <p><a className="btn btn-secondary" href="#">View details »</a></p>
-    </div>{/* /.col-lg-4 */}
-    <div className="col-lg-4">
-    <img src="/gtr2.jpg" className="bd-placeholder-img rounded-circle" alt="gtr2"width={140} height={140} />
-      <h2 className="fw-normal">Heading</h2>
-      <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-      <p><a className="btn btn-secondary" href="#">View details »</a></p>
-    </div>{/* /.col-lg-4 */}
-    <div className="col-lg-4">
-    <img src="/gtr3.jpg" className="bd-placeholder-img rounded-circle" alt="gtr2"width={140} height={140} />
-      <h2 className="fw-normal">Heading</h2>
-      <p>And lastly this, the third column of representative placeholder content.</p>
-      <p><a className="btn btn-secondary" href="#">View details »</a></p>
-    </div>{/* /.col-lg-4 */}
-  </div>{/* /.row */}
-</div>
-
 </main>
 <br />
 <br />
