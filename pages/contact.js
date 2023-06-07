@@ -101,7 +101,7 @@ export default function contact() {
         <img src="/mail.png" className="bd-placeholder-img " alt="facebook"width={410} height={350} />
         <br></br>
         <br></br>
-        <p>ติดต่อผมได้ตามอีเมลที่ขึ้นอยู่นี้</p>
+        <p>Contact mail</p>
       </div>
       </div>
     </div>
