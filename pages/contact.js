@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function index() {
+export default function contact() {
   return (
     <>
     <Head>
@@ -61,12 +61,16 @@ export default function index() {
 <main>
   <center>
 <div className="w3-padding-64 w3-content w3-text-grey" id="contact">
-  <h2 className="w3-text-light-grey">contact</h2>
+  <h2 className="w3-text-light-grey">ช่องทางการติดต่อ</h2>
   <hr style={{width: 200}} className="w3-opacity" />
   <div className="w3-section">
     <p><i className="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right" /> CHIANGMAI , THAILAND</p>
     <p><i className="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right" /> Phone: 0970527606</p>
     <p><i className="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: jetski@gmail.com</p>
+    <p><i className="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> FB : Jetniphat Biturongsakun</p>
+    <p><i className="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> IG : Jxtsz</p>
+    <p><i className="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> LINE jnpbtrsk.</p>
+    
   </div><br />
 
 </div>
