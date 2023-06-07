@@ -105,6 +105,24 @@ Nissan Skyline GT-R R33 (BCNR33) เครื่องยนต์ RB26DETT 156.
     </div>{/* /.col-lg-4 */}
   </div>{/* /.row */}
 </div>
+<div>
+  <div className="b-example-divider" />
+  <div className="container col-xxl-8 px-4 py-5">
+    <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div className="col-10 col-sm-8 col-lg-6">
+        <img src="/nissan.jpg" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width={700} height={500} loading="lazy" />
+      </div>
+      <div className="col-lg-6">
+        <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">NISSAN </h1>
+        <p className="lead"> นิสสัน ถือกำเนิดขึ้นใน พ.ศ.2476 ในนามว่า จิโดชะเซโซ จำกัด ซึ่งมีสำนักงานอยู่ที่โยโกฮามา ญี่ปุ่น โดยผลิตรถที่มียี่ห้อว่านิสสัน(ปัจจุบัน พ.ศ.2549 สำนักงานใหญ่ตั้งอยู่ ณ กรุงโตเกียว)ในปีถัดมาได้จดทะเบียนเปลี่ยนชื่อเป็นนิสสันมอเตอร์ จำกัด ก่อตั้งโดย โยชิซุเกะ ไอกาวา ซึ่งได้ผลิตรถบรรทุก เครื่องบิน และเครื่องยนต์แก่ทหารญี่ปุ่นในยุคสมัยนั้น ในปี พ.ศ.2509 เป็นปีที่นิสสันได้รวมกิจการกับ พรินซ์ มอเตอร์ คอร์ป ของประเทศญี่ปุ่น และได้ผลิตรถยนต์อย่างจริงจัง รถสองรุ่นแรกหลังจากรวมกิจการของพรินซ์มอเตอร์ คือ นิสสันสกายไลน์ และ นิสสันกลอเรีย และในช่วงยุค 80 ปลาย นิสสันได้จัดตั้งยี่ห้อรถใหม่ในสหรัฐอเมริกา ในนาม “อินฟินิที (INFINITY)” ในยุค 80 กลางๆ นิสสันได้เปิดโรงงานที่ รัฐเทนเนสซี สหรัฐอเมริกา เพื่อผลิตรถบรรทุก</p>
+        <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+        <p><a className="btn btn-secondary" href="https://thaiautofilm.com/1198/">อ่านประวัติเพิ่มเติม</a></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 </main>
 <br />
