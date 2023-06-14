@@ -38,5 +38,24 @@ export const authOptions = {
           }
         })
       ],
+      secret: "LlKq6ZtYbr+hTC073mAmAh9/h2HwMfsFo4hrfCx5mLg=",
+      callbacks: {
+        async jwt({ token,account,user }) {
+
+          //  console.log(user)
+
+          if (account) {
+            token.accessToken = account.access_token
+            token.user = user
+          }
+          return token
+        },
+        async session({ session, token, user }) {
+          // Send properties to the client, like an access_token from a provider.
+          session.accessToken = token.accessToken
+          session.user = token.user
+          return session
+        }
+      },
   }
   export default NextAuth(authOptions)
