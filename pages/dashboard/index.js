@@ -13,7 +13,7 @@ export default function Component() {
   }
   return (
     <>
-      Not signed in <br />
+      Not signed ins <br />
       <button onClick={() => signIn()}>Sign in</button>
     </>
   )
